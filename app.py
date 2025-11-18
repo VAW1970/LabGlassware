@@ -124,6 +124,7 @@ st.set_page_config(
 
 st.title("🔬 Detecção de Vidraria de Laboratório")
 st.markdown("Faça o upload de uma imagem para aplicar o modelo de reconhecimento (Faster R-CNN).")
+st.markdown("Este modelo de detecção foi treinado com um **dataset público** no ambiente Google Colaboratory, aproveitando a aceleração de **GPU (CGU)**, porém dentro das limitações de tempo e recursos do ambiente gratuito.")
 st.markdown("---")
 
 
