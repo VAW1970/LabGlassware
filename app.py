@@ -135,7 +135,7 @@ if modelo is None:
     st.stop() # Parar o aplicativo se o modelo não puder ser carregado
 
 # 3. Sidebar para Controles
-st.image("Taleh azul 3D ícone.png", width=128)
+st.sidebar.image("Taleh azul 3D ícone.png", width=128)
 st.sidebar.header("⚙️ Controles de Detecção")
 
 threshold = st.sidebar.slider(
