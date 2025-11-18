@@ -136,6 +136,7 @@ if modelo is None:
 
 # 3. Sidebar para Controles
 st.sidebar.header("⚙️ Controles de Detecção")
+st.image("Taleh azul 3D ícone.png", width=128)
 
 threshold = st.sidebar.slider(
     'Limite de Confiança (Threshold)',
