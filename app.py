@@ -147,6 +147,10 @@ threshold = st.sidebar.slider(
     help="Apenas detecções com confiança acima deste valor serão exibidas."
 )
 
+st.sidebar.image("Bequer3.jpeg", width=128)
+st.sidebar.image("Erlenmeyer7.jpeg", width=128)
+st.sidebar.image("Varios2.jpeg", width=128)
+
 # 4. Upload de Imagem
 uploaded_file = st.file_uploader(
     "🖼️ **Selecione uma Imagem (.jpg, .png)**",
