@@ -38,7 +38,6 @@ NUM_CLASSES = len(CLASSES)
 @st.cache_resource
 def load_detection_model():
     """Carrega o modelo de detecção treinado uma única vez."""
-    st.info("Carregando o modelo... Por favor, aguarde.")
     
     # Cria a arquitetura do modelo
     model = torchvision.models.detection.fasterrcnn_resnet50_fpn(weights=None, num_classes=NUM_CLASSES)
