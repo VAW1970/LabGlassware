@@ -116,14 +116,15 @@ def detect_and_draw(model, pil_image, threshold):
 
 # 1. Configuração da Página
 st.set_page_config(
-    page_title="Vidraria Lab - Detecção de Objetos",
+    page_title="Labglassware",
     page_icon="🔬",
     layout="wide"
 )
 
-st.title("🔬 Detecção de Vidraria de Laboratório")
-st.markdown("Faça o upload de uma imagem para aplicar o modelo de reconhecimento (Faster R-CNN).")
-st.markdown("Este modelo de detecção foi treinado com um **dataset público** no ambiente Google Colaboratory, aproveitando a aceleração de **GPU (CGU)**, porém dentro das limitações de tempo e recursos do ambiente gratuito.")
+st.title("🔬 Detecção de Vidraria de Laboratório - Taleh Soluções em Tecnologia")
+st.markdown("Faça o upload ou escolha uma imagem no menu lateral para aplicar o modelo de reconhecimento (Faster R-CNN).")
+st.markdown("Abaixo aparecerá a imagem original e o resultado da detecção com os objetos marcados, juntamente com o valor de confiança.")
+st.markdown("Este modelo de detecção foi treinado com um **dataset público** no ambiente Google Colaboratory, com aceleração de **GPU (CGU)** e aprimorado em máquina local.")
 st.markdown("---")
 
 
